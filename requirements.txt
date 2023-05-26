@@ -3,3 +3,4 @@ langchain
 openai
 google-search-results
 google-api-python-client
+flask_cors
