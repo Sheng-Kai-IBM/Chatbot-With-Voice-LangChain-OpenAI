@@ -10,8 +10,8 @@ from langchain.agents import load_tools, initialize_agent, AgentType
 
 
 # set up API key
-RapidAPI_Key = ""
-os.environ["OPENAI_API_KEY"] = ""
+RapidAPI_Key = "..."
+os.environ["OPENAI_API_KEY"] = "..."
 os.environ["SERPAPI_API_KEY"] = "..."
 
 
