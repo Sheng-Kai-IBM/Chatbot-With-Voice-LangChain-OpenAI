@@ -10,11 +10,9 @@ from langchain.agents import load_tools, initialize_agent, AgentType
 
 
 # set up API key
-RapidAPI_Key = "7ded277814msh65bb26753c3aee5p145b54jsn53ded2e550b7"
-# New API key # RapidAPI_Key = "7b4c4d095fmsha46aeb7fb4c7a44p1c6d70jsnf0f7d4e68980"
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["GOOGLE_CSE_ID"] = "e68157840a6ca41e9"
-os.environ["GOOGLE_API_KEY"] = "AIzaSyC76qTIEEqiVrHAGNmSe3_TgY5VWn-ICd4"
+RapidAPI_Key = ""
+os.environ["OPENAI_API_KEY"] = ""
+os.environ["SERPAPI_API_KEY"] = "..."
 
 
 def openai_set_memory_respond():
