@@ -2,6 +2,7 @@ import os
 import json
 import requests
 import base64
+import numpy as np
 from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import ConversationChain
